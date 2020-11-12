@@ -56,7 +56,7 @@ body {background:#fcdaa7;
 font-family: monaco,Consolas,Lucida Console,monospace;
 color:black;
 margin-left:0%;
-width:110%;
+margin-right:0%;
 margin-top:0%}
 
 #metronome {
@@ -72,7 +72,7 @@ color:white;
 overflow:hidden}
 
 .header {border: 3px solid black;
-background-color:#572c04;
+background-color:black;
 color:white}
 
 #startBtn, #stopBtn{padding:10px 30px;
