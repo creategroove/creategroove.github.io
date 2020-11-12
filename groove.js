@@ -128,7 +128,9 @@ updateTime()
 timer=window.setTimeout(scheduler, 10)
 }
 
-function updateTime(){curTime+=(60/Number(bpmInput.value))}
+function updateTime(){
+  if(Number(bpmInput.value)>240){bpmInput.value="240"}
+    curTime+=(60/Number(bpmInput.value))}
 
 
 
